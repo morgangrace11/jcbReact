@@ -1,0 +1,16 @@
+.gallery {
+    padding-bottom: 10vh;
+}
+.react-photo-gallery--gallery {
+    margin: 40px;
+}
+.react-photo-gallery--gallery div {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}

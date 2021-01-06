@@ -1,0 +1,11 @@
+.events {
+    text-align: center;
+    min-height: 80vh;
+    display: block;
+    padding-top: 33px;
+}
+
+.event-covid {
+    margin-top: 50px;
+    font-size: 15pt;
+}
