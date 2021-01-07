@@ -8,10 +8,8 @@
     min-height: 100vh;
     display: block;
     padding-top: 33px;
+    padding-bottom: 10vh;
 }
-/* #root {
-    background-color: yellow;
-} */
 .about-center {
     margin-top: 20px;
     display: block;
