@@ -22,7 +22,7 @@ class Navbar extends React.Component {
                 <div>
                     <div id="nav">
                         <li className="nav-item-home"><Link to="/"><img alt="jcb" src={logo}/></Link></li>
-                        <li className="nav-item"><Link to="/home">Home</Link></li>
+                        <li className="nav-item"><Link to="/">Home</Link></li>
                         <li className="nav-item"><Link to="/about">About Us</Link></li>
                         <li className="nav-item"><Link to="/contact">Contact</Link></li>
                         <li className="nav-item"><Link to="/events">Events</Link></li>
@@ -30,10 +30,6 @@ class Navbar extends React.Component {
                         <li className="nav-item"><Link to="/people">People</Link></li>
                     </div>
                     <Switch>
-                        <Route path="/home">
-                            <Home />
-                            <Footer />
-                        </Route>
                         <Route path="/contact">
                             <Contact />
                             <Footer />
